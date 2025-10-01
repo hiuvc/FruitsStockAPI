@@ -46,7 +46,7 @@ def update_stock():
             cache_data["status"] = "error"
             print("❌ Exception:", e)
 
-        time.sleep(120)  # đợi 2 phút rồi cập nhật lại
+        time.sleep(30)  # đợi 2 phút rồi cập nhật lại
 
 
 @app.route("/fruitstock", methods=["GET"])
